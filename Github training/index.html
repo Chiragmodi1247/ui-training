@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Github finder</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <h2 class="title">Github Finder</h2>
+    </div>
+    <div class="main_body">
+      <div class="search_box">
+        <b> <h2>Search Github Users</h2></b>
+        <label style="color: rgb(104, 104, 104);"
+          >Enter Username to fetch details from Github</label
+        ><br /><br />
+        <input type="text" class="input_name" id="name" />
+        <button onclick="user()">Get</button>
+      </div>
+      <div class="info_container">
+          <div class="photo_container">
+        <img src="" alt="" id="user_profile" class="Profile_photo" />
+            <button class="view_profile">View Profile</button>
+    </div>  
+    </div>
+      <h2>Latest Repositories</h2>
+      <div id="list">
+        <!-- <div class="repo">
+          <h2 class="repo_name" id="repo_name">Repo name 1</h2>
+          <div class="stars" id="stars">Button1 here</div>
+          <div class="watcher" id="watcher">Button2 here</div>
+          <div class="forks" id="forks">Button3 here</div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>

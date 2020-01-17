@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    /* padding: 0; */
+    /* top:0;
+    left: 0; */
+    background: orangered;
+    height: 50px;
+    width: 100%;
+}
+.buttons{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+td{
+    /* padding: 10px; */
+    border: 1px solid black;
+}
+.myform{
+    text-align: center;
+}
+input{
+    width: 500px;
+    padding: 10px;
+}
+.submit{
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    background: skyblue;
+    margin-top: 10px;
+}
+.about{
+    margin: 20px;
+}
