@@ -20,7 +20,19 @@ const routes = [
   },{
     path: '/contact',
     name: 'contact',
-    component: () => import('../views/Contact.vue')
+    component: () => import('../views/Contact.vue'),
+    children: [
+      {
+        name: 'bangalore',
+        path: 'bangalore',
+        component: () => import('../views/bangalore.vue')
+      },
+      {
+        name: 'delhi',
+        path: 'delhi',
+        component: () => import('../views/delhi.vue')
+      }
+    ]
   },{
     path: '/chirag',
     name: 'Chirag',
